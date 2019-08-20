@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "otbutton.css",
+	"sources": [
+		"../../../../scss/form/button/otbutton.scss"
+	],
+	"sourcesContent": [
+		".button{    \r\n    background-color: aqua;\r\n    width: 100px;\r\n    height: 50px;\r\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,OAAO,CAAA;EACH,gBAAgB,EAAE,IAAI;EACtB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,IAAI;CACf"
+}

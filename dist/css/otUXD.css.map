@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "otUXD.css",
+	"sources": [
+		"../../scss/otUXD.scss",
+		"../../scss/form/button/otbutton.scss"
+	],
+	"sourcesContent": [
+		"@import 'form/button/otbutton'",
+		".button{    \r\n    background-color: aqua;\r\n    width: 100px;\r\n    height: 50px;\r\n}"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,OAAO,CAAA;EACH,gBAAgB,EAAE,IAAI;EACtB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,IAAI;CACf"
+}
