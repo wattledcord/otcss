@@ -4,13 +4,15 @@
 	"sources": [
 		"../../../../scss/components/form/otForm.scss",
 		"../../../../scss/components/form/button/otbutton.scss",
-		"../../../../scss/components/form/select/otSelect.scss"
+		"../../../../scss/components/form/select/otSelect.scss",
+		"../../../../scss/components/form/input/otInput.scss"
 	],
 	"sourcesContent": [
-		"@import './button/otbutton.scss';\r\n@import './select/otSelect.scss';\r\n",
+		"@import './button/otbutton.scss';\r\n@import './select/otSelect.scss';\r\n@import './input/otInput.scss';",
 		".button{    \r\n    background-color: red;\r\n    width: 100px;\r\n    height: 50px;\r\n}",
-		"select{\r\n    display: block;\r\n    font-size: 16px;    \r\n    color: #444;\r\n    padding: 2px 1px;\r\n    width: 100%;\r\n    max-width: 100%;\r\n    height: 30px;\r\n    box-sizing: border-box;\r\n    margin: 0;\r\n    border: 1px solid #aaa;\r\n    border-radius: 5px;\r\n    background-color: #fff;\r\n    // -moz-appearance: none;\r\n    // -webkit-appearance: none;\r\n    // appearance: none;\r\n}"
+		"select{\r\n    display: block;\r\n    font-size: 16px;    \r\n    color: #444;\r\n    padding: 2px 1px;\r\n    width: 100%;\r\n    max-width: 100%;\r\n    height: 30px;\r\n    box-sizing: border-box;\r\n    margin: 0;\r\n    border: 1px solid #aaa;\r\n    border-radius: 5px;\r\n    background-color: #fff;\r\n    // -moz-appearance: none;\r\n    // -webkit-appearance: none;\r\n    // appearance: none;\r\n}",
+		"input[type=\"text\"] {\r\n  background-color: #ffffff;\r\n  border-radius: 3px;\r\n  border: 1px solid #757575;\r\n  height: 28px;\r\n  padding-left: 10px;\r\n  width: 95%;\r\n  margin: 0;\r\n}\r\ninput[type=\"checkbox\"] {\r\n  -webkit-appearance: none;\r\n  width: 18px;\r\n  height: 18px;\r\n  background: #ffffff;\r\n  border: 1px solid #757575;\r\n  box-sizing: border-box;\r\n}\r\ninput[type=\"checkbox\"]:checked {\r\n  background: lightblue;\r\n}\r\n"
 	],
 	"names": [],
-	"mappings": "ACAA,AAAA,OAAO,CAAA;EACH,gBAAgB,EAAE,GAAG;EACrB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,IAAI;CACf;;ACJD,AAAA,MAAM,CAAA;EACF,OAAO,EAAE,KAAK;EACd,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,OAAO;EAChB,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,IAAI;EACf,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,UAAU;EACtB,MAAM,EAAE,CAAC;EACT,MAAM,EAAE,cAAc;EACtB,aAAa,EAAE,GAAG;EAClB,gBAAgB,EAAE,IAAI;CAIzB"
+	"mappings": "ACAA,AAAA,OAAO,CAAA;EACH,gBAAgB,EAAE,GAAG;EACrB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,IAAI;CACf;;ACJD,AAAA,MAAM,CAAA;EACF,OAAO,EAAE,KAAK;EACd,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,OAAO;EAChB,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,IAAI;EACf,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,UAAU;EACtB,MAAM,EAAE,CAAC;EACT,MAAM,EAAE,cAAc;EACtB,aAAa,EAAE,GAAG;EAClB,gBAAgB,EAAE,IAAI;CAIzB;;AChBD,AAAA,KAAK,CAAA,AAAA,IAAC,CAAK,MAAM,AAAX,EAAa;EACjB,gBAAgB,EAAE,OAAO;EACzB,aAAa,EAAE,GAAG;EAClB,MAAM,EAAE,iBAAiB;EACzB,MAAM,EAAE,IAAI;EACZ,YAAY,EAAE,IAAI;EAClB,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,CAAC;CACV;;AACD,AAAA,KAAK,CAAA,AAAA,IAAC,CAAK,UAAU,AAAf,EAAiB;EACrB,kBAAkB,EAAE,IAAI;EACxB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,OAAO;EACnB,MAAM,EAAE,iBAAiB;EACzB,UAAU,EAAE,UAAU;CACvB;;AACD,AAAA,KAAK,CAAA,AAAA,IAAC,CAAK,UAAU,AAAf,CAAgB,QAAQ,CAAC;EAC7B,UAAU,EAAE,SAAS;CACtB"
 }

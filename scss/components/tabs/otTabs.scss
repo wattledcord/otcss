@@ -1,19 +1,29 @@
-@import '../../otVaraibles.scss';
+@import "../../otVaraibles.scss";
 .tabs {
   display: flex;
   flex-direction: row;
-  list-style: none;  
-  align-items: center;
-  margin: 0;
-  height: 50px;
-  background-color: $tabs-header-background-color;
+  list-style: none;
+  align-items: center;        
+  border-bottom: 1px solid #cccccc;
+  margin: 10px;
   .tab-item {
-      cursor: pointer;
-      padding: 10px;
-      border-bottom: 5px solid transparent;
-    &.active {
-        font-weight: bold;
-      border-bottom: 5px solid #0072aa;
+    cursor: pointer;
+    font-size: 14px;
+    color: #000000;    
+    border-bottom: 4px solid transparent;
+    font-weight: normal;      
+    flex-shrink: 1;  
+    margin-left:0.8rem;
+    margin-right:0.8rem;
+    padding-bottom: 0.5rem;    
+    &.active {      
+      font-weight: bold;
+      border-bottom: 4px solid #232e72;
     }
+    
+    &:hover {    
+      color: #333333;
+      border-bottom: 4px solid #0084ce;
+    }     
   }
 }

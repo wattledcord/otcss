@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/otUXD.css" type="text/css" />
     <style>
       .opentext-logo {
-        filter: invert(1);           
+        filter: invert(1);
       }
       .search-icon {
         height: 21px;
@@ -71,103 +71,178 @@
         </ul>
       </div>
       <div class="content">
-        <ul class="tabs">
-          <li class="tab-item active" id="1" onclick="getClickeditem(event)">
-            Model
-          </li>
-          <li class="tab-item" id="2" onclick="getClickeditem(event)">Rules</li>
-          <li class="tab-item" id="3" onclick="getClickeditem(event)">
-            Life cycle
-          </li>
-          <li class="tab-item" id="4" onclick="getClickeditem(event)">
-            Settings
-          </li>
-        </ul>
-        <ul class="tabs" style="background-color: unset">
-          <li class="tab-item active" id="5" onclick="getClickedsubitem(event)">
-            Case properties
-          </li>
-          <li class="tab-item" id="6" onclick="getClickedsubitem(event)">
-            Forms
-          </li>
-        </ul>
-        <div class="table">
-          <div class="header">
-            <div class="cell">Name</div>
-            <div class="cell">Label</div>
-            <div class="cell">Type</div>
+        <div>
+          <div>
+            <ul class="tabs">
+              <li
+                class="tab-item active"
+                id="1"
+                onclick="getClickeditem(event)"
+              >
+                Model
+              </li>
+              <li class="tab-item" id="2" onclick="getClickeditem(event)">
+                Rules
+              </li>
+              <li class="tab-item" id="3" onclick="getClickeditem(event)">
+                Life cycle
+              </li>
+              <li class="tab-item" id="4" onclick="getClickeditem(event)">
+                Settings
+              </li>
+            </ul>
           </div>
-          <div class="body">
-            <div class="row">
-              <div class="cell">Case ID</div>
-              <div class="cell">Case ID</div>
-              <div class="cell">
-                <select>
-                  <option value="textbox">Textbox</option>
-                  <option value="date">Date</option>
-                  <option value="dropdown">Dropdown</option>
-                  <option value="username">User name</option>
-                </select>
+          <div>
+            <ul class="tabs">
+              <li
+                class="tab-item active"
+                id="5"
+                onclick="getClickedsubitem(event)"
+              >
+                Case properties
+              </li>
+              <li class="tab-item" id="6" onclick="getClickedsubitem(event)">
+                Forms
+              </li>
+            </ul>
+          </div>
+          <div>
+            <div class="table">
+              <div class="header row">
+                <div class="cell">Name</div>
+                <div class="cell">Label</div>
+                <div class="cell">Type</div>
+              </div>
+              <div class="body">
+                <div class="row">
+                  <div class="cell">Case ID</div>
+                  <div class="cell">Case ID</div>
+                  <div class="cell">
+                    <select>
+                      <option value="textbox">Textbox</option>
+                      <option value="date">Date</option>
+                      <option value="dropdown">Dropdown</option>
+                      <option value="username">User name</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="cell">Case title</div>
+                  <div class="cell">Title</div>
+                  <div class="cell">
+                    <select>
+                      <option value="textbox">Textbox</option>
+                      <option value="date" selected>Date</option>
+                      <option value="dropdown">Dropdown</option>
+                      <option value="username">User name</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="cell">Craeted by</div>
+                  <div class=" cell">Case Craeted by</div>
+                  <div class=" cell">
+                    <select>
+                      <option value="textbox" selected>Textbox</option>
+                      <option value="date">Date</option>
+                      <option value="dropdown">Dropdown</option>
+                      <option value="username">User name</option>
+                    </select>
+                  </div>
+                </div>
+                <div class=" row">
+                  <div class=" cell">Craeted on</div>
+                  <div class=" cell">Case Craeted on</div>
+                  <div class=" cell">
+                    <select>
+                      <option value="textbox">Textbox</option>
+                      <option value="date" selected>Date</option>
+                      <option value="dropdown">Dropdown</option>
+                      <option value="username">User name</option>
+                    </select>
+                  </div>
+                </div>
+                <div class=" row">
+                  <div class=" cell">Status</div>
+                  <div class=" cell">Case Status</div>
+                  <div class=" cell">
+                    <select>
+                      <option value="textbox">Textbox</option>
+                      <option value="date">Date</option>
+                      <option value="dropdown" selected>Dropdown</option>
+                      <option value="username">User name</option>
+                    </select>
+                  </div>
+                </div>
+                <div class=" row">
+                  <div class=" cell">Owner</div>
+                  <div class=" cell">Case Owner</div>
+                  <div class=" cell">
+                    <select>
+                      <option value="textbox">Textbox</option>
+                      <option value="date">Date</option>
+                      <option value="dropdown">Dropdown</option>
+                      <option value="username" selected>User name</option>
+                    </select>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="row">
-              <div class="cell">Case title</div>
-              <div class="cell">Title</div>
-              <div class="cell">
-                <select>
-                  <option value="textbox">Textbox</option>
-                  <option value="date" selected>Date</option>
-                  <option value="dropdown">Dropdown</option>
-                  <option value="username">User name</option>
-                </select>
+          </div>
+          <div>
+            <div><input type="checkbox" /> Add new properties</div>
+            <div class="table">
+              <div class="header row">
+                <div class="cell">Name</div>
+                <div class="cell">Label</div>
+                <div class="cell">Type</div>
               </div>
-            </div>
-            <div class="row">
-              <div class="cell">Craeted by</div>
-              <div class=" cell">Case Craeted by</div>
-              <div class=" cell">
-                <select>
-                  <option value="textbox" selected>Textbox</option>
-                  <option value="date">Date</option>
-                  <option value="dropdown">Dropdown</option>
-                  <option value="username">User name</option>
-                </select>
-              </div>
-            </div>
-            <div class=" row">
-              <div class=" cell">Craeted on</div>
-              <div class=" cell">Case Craeted on</div>
-              <div class=" cell">
-                <select>
-                  <option value="textbox">Textbox</option>
-                  <option value="date" selected>Date</option>
-                  <option value="dropdown">Dropdown</option>
-                  <option value="username">User name</option>
-                </select>
-              </div>
-            </div>
-            <div class=" row">
-              <div class=" cell">Status</div>
-              <div class=" cell">Case Status</div>
-              <div class=" cell">
-                <select>
-                  <option value="textbox">Textbox</option>
-                  <option value="date">Date</option>
-                  <option value="dropdown" selected>Dropdown</option>
-                  <option value="username">User name</option>
-                </select>
-              </div>
-            </div>
-            <div class=" row">
-              <div class=" cell">Owner</div>
-              <div class=" cell">Case Owner</div>
-              <div class=" cell">
-                <select>
-                  <option value="textbox">Textbox</option>
-                  <option value="date">Date</option>
-                  <option value="dropdown">Dropdown</option>
-                  <option value="username" selected>User name</option>
-                </select>
+              <div class="body">
+                <div class="row">
+                  <div class="cell">
+                    <input
+                      type="text"
+                      placeholder="Location"
+                      value="Location"
+                    />
+                  </div>
+                  <div class="cell">
+                    <input type="text" placeholder="Address" value="Address" />
+                  </div>
+                  <div class="cell">
+                    <select>
+                      <option value="textbox">Textbox</option>
+                      <option value="date">Date</option>
+                      <option value="dropdown">Dropdown</option>
+                      <option value="username">User name</option>
+                      <option value="text" selected>Text</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="cell">
+                    <input
+                      type="text"
+                      placeholder="Category"
+                      value="Category"
+                    />
+                  </div>
+                  <div class="cell">
+                    <input
+                      type="text"
+                      placeholder="Category"
+                      value="Category"
+                    />
+                  </div>
+                  <div class="cell">
+                    <select>
+                      <option value="textbox">Textbox</option>
+                      <option value="date">Date</option>
+                      <option value="dropdown" selected>Dropdown</option>
+                      <option value="username">User name</option>
+                    </select>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

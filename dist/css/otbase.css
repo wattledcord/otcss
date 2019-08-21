@@ -1,20 +1,28 @@
-body {
+html, body {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  font-family: "OpenText Sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
   background: linear-gradient(61deg, #090e2c 0, #122c69 59%, #078db3 100%);
   background-color: #111b58;
   background-attachment: fixed;
-  height: 100%;
-  width: 100%;
-  position: fixed;
+  color: #333;
 }
 
 .content {
   background-color: white;
-  height: 100%;
+  height: 600px;
+  overflow-y: auto;
+  padding: 10px;
 }
 
 .header {
-  display: grid;
-  grid-template-columns: auto 1fr;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
 }
 
 .header .company-logo {

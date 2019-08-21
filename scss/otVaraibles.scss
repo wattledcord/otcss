@@ -1,3 +1,80 @@
 $ot-body-content-color: white;
 
-$tabs-header-background-color:rgba(242, 242, 242, 1);
+$tabs-header-background-color: rgba(242, 242, 242, 1);
+
+
+
+/// OpenText named colours
+
+$ot-navy: rgb(17,27,88);
+$ot-navy-p-1: rgb(13,20,66);
+$ot-navy-p-2: rgb(9,14,44);
+$ot-navy-m-1: rgb(65,73,121);
+
+$ot-light-blue: rgb(9,188,239);
+$ot-light-blue-p-1: rgb(7,141,179);
+$ot-light-blue-p-2: rgb(5,94,120);
+$ot-light-blue-m-1: rgb(58,201,242);
+
+$ot-indigo: rgb(46,61,152);
+$ot-indigo-p-1: rgb(35,46,114);
+$ot-indigo-p-2: rgb(23,31,76);
+$ot-indigo-m-1: rgb(88,100,173);
+
+$ot-plum: rgb(79,54,144);
+$ot-plum-p-1: rgb(59,41,108);
+$ot-plum-p-2: rgb(40,27,72);
+$ot-plum-m-1: rgb(114,94,166);
+
+$ot-steel: rgb(126,146,159);
+$ot-steel-p-1: rgb(95,110,119);
+$ot-steel-p-2: rgb(63,73,80);
+$ot-steel-m-1: rgb(152,168,178);
+
+$ot-cloud: rgb(225,232,246);
+$ot-cloud-p-1: rgb(169,174,185);
+$ot-cloud-p-2: rgb(113,116,123);
+$ot-cloud-m-1: rgb(231,237,248);
+
+$ot-firebrick: rgb(223,51,36);
+$ot-burnt: rgb(240,88,34);
+$ot-green: rgb(140,197,62);
+$ot-emerald: rgb(8,166,26);
+$ot-raspberry: rgb(224, 0, 81);
+$ot-madder-red: rgb(186, 0, 76);
+$ot-magenta: rgb(160, 0, 107);
+
+$ot-primary-web-gradient: linear-gradient(39.76deg, #0E122B 13.95%, #0F142F 26.75%, #131939 36.86%, #19224A 46.06%, #222E61 54.65%, #243167 56.44%, #23346A 63.97%, #203E72 69.86%, #1B4F7F 75.2%, #146693 80.2%, #0B84AB 83.33%, #088CB2 86.05%);
+
+// element and component colors
+
+$ot-text-color: #333;
+$ot-text-color-reverse: #fff;
+
+$ot-border-color: $ot-cloud;
+$ot-border-color-p-1: fade_out($ot-cloud-p-1, .6);
+
+$ot-hover-color: fade_out($ot-cloud-m-1, 0.6);
+
+$ot-form-control-border-color: $ot-cloud-p-2;
+$ot-form-control-border-focused-color: $ot-steel-p-2;
+
+$ot-light-background: fade_out($ot-cloud, 0.6);
+
+// useful sizes for shared components
+
+$ot-app-header-height: 4rem;
+$ot-page-header-height: 3rem;
+$ot-page-toolbar-height: 3rem;
+$ot-page-footer-height: 4rem;
+$ot-tabs-height: 3rem;
+
+// typography
+
+$ot-font-family: "OpenText Sans", Arial, sans-serif;
+
+$ot-font-size-large: 1.25rem;
+$ot-font-size-base: 1rem;
+$ot-font-size-small: 0.875rem;
+$ot-font-size-smaller: 0.75rem;
+$ot-font-size-tiny: 0.625rem;

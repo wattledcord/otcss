@@ -5,8 +5,8 @@
 		"../../scss/otReset.scss"
 	],
 	"sourcesContent": [
-		"/**\r\nReset styles to unapply default styles applied by browsers\r\n**/\r\nbody {\r\n  margin: 0px;\r\n}\r\n"
+		"/**\r\nReset styles to unapply default styles applied by browsers\r\n**/\r\n*, *:before, *:after {\r\n  box-sizing: border-box;\r\n}\r\n\r\nhtml, body {\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n"
 	],
 	"names": [],
-	"mappings": "AAAA;;GAEG;AACH,AAAA,IAAI,CAAC;EACH,MAAM,EAAE,GAAG;CACZ"
+	"mappings": "AAAA;;GAEG;AACH,AAAA,CAAC,EAAE,CAAC,AAAA,OAAO,EAAE,CAAC,AAAA,MAAM,CAAC;EACnB,UAAU,EAAE,UAAU;CACvB;;AAED,AAAA,IAAI,EAAE,IAAI,CAAC;EACT,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACX"
 }

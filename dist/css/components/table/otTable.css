@@ -1,40 +1,47 @@
 .table {
-  border-right: 2px solid #f4f4f4;
-  border-left: 2px solid #f4f4f4;
   width: 100%;
+  border-left: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6;
 }
 
-.table .header {
+.table .row {
   display: flex;
-  background-color: #f5f7fa;
   flex-direction: row;
   flex-wrap: nowrap;
-  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #e6e6e6;
+  border-top: 1px solid #e6e6e6;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: #333333;
+  min-height: 3rem;
 }
 
-.table .cell {
+.table .row .cell {
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 0;
-  padding: 10px;
+  font-size: 14px;
   text-align: start;
+  line-height: 1em;
+  margin: 0 10px;
+}
+
+.table .header {
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #d5d5d5;
+  border-top: 1px solid #d5d5d5;
+}
+
+.table .header .cell {
+  color: #333333;
 }
 
 .table .body {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-}
-
-.table .body .row {
-  display: flex;
-  flex-direction: row;
-  border-bottom: 2px solid #f4f4f4;
-  padding-top: 5px;
-}
-
-.table .body .row .cell {
-  font-size: 16px;
 }
 
 /*# sourceMappingURL=otTable.css.map */

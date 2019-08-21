@@ -1,8 +1,13 @@
 /**
 Reset styles to unapply default styles applied by browsers
 **/
-body {
-  margin: 0px;
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
 }
 
 /*# sourceMappingURL=otReset.css.map */
