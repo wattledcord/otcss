@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "otTabs.css",
+	"sources": [
+		"../../../../scss/components/tabs/otTabs.scss",
+		"../../../../scss/otVaraibles.scss"
+	],
+	"sourcesContent": [
+		"@import '../../otVaraibles.scss';\r\n.tabs {\r\n  display: flex;\r\n  flex-direction: row;\r\n  list-style: none;  \r\n  align-items: center;\r\n  margin: 0;\r\n  height: 50px;\r\n  background-color: $tabs-header-background-color;\r\n  .tab-item {\r\n      cursor: pointer;\r\n      padding: 10px;\r\n      border-bottom: 5px solid transparent;\r\n    &.active {\r\n        font-weight: bold;\r\n      border-bottom: 5px solid #0072aa;\r\n    }\r\n  }\r\n}\r\n",
+		"$ot-body-content-color: white;\r\n\r\n$tabs-header-background-color:rgba(242, 242, 242, 1);\r\n"
+	],
+	"names": [],
+	"mappings": "AACA,AAAA,KAAK,CAAC;EACJ,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,UAAU,EAAE,IAAI;EAChB,WAAW,EAAE,MAAM;EACnB,MAAM,EAAE,CAAC;EACT,MAAM,EAAE,IAAI;EACZ,gBAAgB,ECNY,OAAsB;CDgBnD;;AAjBD,AAQE,KARG,CAQH,SAAS,CAAC;EACN,MAAM,EAAE,OAAO;EACf,OAAO,EAAE,IAAI;EACb,aAAa,EAAE,qBAAqB;CAKvC;;AAhBH,AAYI,KAZC,CAQH,SAAS,AAIN,OAAO,CAAC;EACL,WAAW,EAAE,IAAI;EACnB,aAAa,EAAE,iBAAiB;CACjC"
+}

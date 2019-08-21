@@ -1,0 +1,22 @@
+.tabs {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+  margin: 0;
+  height: 50px;
+  background-color: #f2f2f2;
+}
+
+.tabs .tab-item {
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 5px solid transparent;
+}
+
+.tabs .tab-item.active {
+  font-weight: bold;
+  border-bottom: 5px solid #0072aa;
+}
+
+/*# sourceMappingURL=otTabs.css.map */

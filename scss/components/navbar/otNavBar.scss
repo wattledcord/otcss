@@ -1,0 +1,10 @@
+.navbar {
+  display: flex;
+  flex-direction: row;  
+  list-style: none;
+  justify-content: flex-end;
+  .listitem {
+    padding-right: 10pt;
+  }
+}
+

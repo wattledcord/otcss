@@ -1,0 +1,31 @@
+@import "otVaraibles.scss";
+body {
+  background: linear-gradient(61deg, #090e2c 0, #122c69 59%, #078db3 100%);
+  background-color: #111b58;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+.content {
+  background-color: $ot-body-content-color;
+  height: 100%;
+}
+.header {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  .company-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .logo-separator {
+      margin-left: 10px;
+      height: 35px;
+    }
+    .crp-header-text {
+      font-size: 23px;
+      color: #ffffff;    
+      margin-left: 10px;      
+    }
+  }
+}

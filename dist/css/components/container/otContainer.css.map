@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "otContainer.css",
+	"sources": [
+		"../../../../scss/components/container/otContainer.scss"
+	],
+	"sourcesContent": [
+		".container {    \r\n    height: 100%;\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,UAAU,CAAC;EACP,MAAM,EAAE,IAAI;CACf"
+}

@@ -1,0 +1,19 @@
+@import '../../otVaraibles.scss';
+.tabs {
+  display: flex;
+  flex-direction: row;
+  list-style: none;  
+  align-items: center;
+  margin: 0;
+  height: 50px;
+  background-color: $tabs-header-background-color;
+  .tab-item {
+      cursor: pointer;
+      padding: 10px;
+      border-bottom: 5px solid transparent;
+    &.active {
+        font-weight: bold;
+      border-bottom: 5px solid #0072aa;
+    }
+  }
+}

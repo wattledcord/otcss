@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "otVaraibles.css",
+	"sources": [
+		"../../scss/otVaraibles.scss"
+	],
+	"sourcesContent": [
+		"$ot-body-content-color: white;\r\n\r\n$tabs-header-background-color:rgba(242, 242, 242, 1);\r\n"
+	],
+	"names": [],
+	"mappings": ""
+}

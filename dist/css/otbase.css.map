@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "otbase.css",
+	"sources": [
+		"../../scss/otbase.scss",
+		"../../scss/otVaraibles.scss"
+	],
+	"sourcesContent": [
+		"@import \"otVaraibles.scss\";\r\nbody {\r\n  background: linear-gradient(61deg, #090e2c 0, #122c69 59%, #078db3 100%);\r\n  background-color: #111b58;\r\n  background-attachment: fixed;\r\n  height: 100%;\r\n  width: 100%;\r\n  position: fixed;\r\n}\r\n.content {\r\n  background-color: $ot-body-content-color;\r\n  height: 100%;\r\n}\r\n.header {\r\n  display: grid;\r\n  grid-template-columns: auto 1fr;\r\n  .company-logo {\r\n    display: flex;\r\n    flex-direction: row;\r\n    align-items: center;\r\n    .logo-separator {\r\n      margin-left: 10px;\r\n      height: 35px;\r\n    }\r\n    .crp-header-text {\r\n      font-size: 23px;\r\n      color: #ffffff;    \r\n      margin-left: 10px;      \r\n    }\r\n  }\r\n}\r\n",
+		"$ot-body-content-color: white;\r\n\r\n$tabs-header-background-color:rgba(242, 242, 242, 1);\r\n"
+	],
+	"names": [],
+	"mappings": "AACA,AAAA,IAAI,CAAC;EACH,UAAU,EAAE,4DAA4D;EACxE,gBAAgB,EAAE,OAAO;EACzB,qBAAqB,EAAE,KAAK;EAC5B,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;EACX,QAAQ,EAAE,KAAK;CAChB;;AACD,AAAA,QAAQ,CAAC;EACP,gBAAgB,ECVM,KAAK;EDW3B,MAAM,EAAE,IAAI;CACb;;AACD,AAAA,OAAO,CAAC;EACN,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,QAAQ;CAehC;;AAjBD,AAGE,OAHK,CAGL,aAAa,CAAC;EACZ,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,WAAW,EAAE,MAAM;CAUpB;;AAhBH,AAOI,OAPG,CAGL,aAAa,CAIX,eAAe,CAAC;EACd,WAAW,EAAE,IAAI;EACjB,MAAM,EAAE,IAAI;CACb;;AAVL,AAWI,OAXG,CAGL,aAAa,CAQX,gBAAgB,CAAC;EACf,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,OAAO;EACd,WAAW,EAAE,IAAI;CAClB"
+}

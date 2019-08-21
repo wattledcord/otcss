@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "otReset.css",
+	"sources": [
+		"../../scss/otReset.scss"
+	],
+	"sourcesContent": [
+		"/**\r\nReset styles to unapply default styles applied by browsers\r\n**/\r\nbody {\r\n  margin: 0px;\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": "AAAA;;GAEG;AACH,AAAA,IAAI,CAAC;EACH,MAAM,EAAE,GAAG;CACZ"
+}

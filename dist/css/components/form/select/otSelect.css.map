@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "otSelect.css",
+	"sources": [
+		"../../../../../scss/components/form/select/otSelect.scss"
+	],
+	"sourcesContent": [
+		"select{\r\n    display: block;\r\n    font-size: 16px;    \r\n    color: #444;\r\n    padding: 2px 1px;\r\n    width: 100%;\r\n    max-width: 100%;\r\n    height: 30px;\r\n    box-sizing: border-box;\r\n    margin: 0;\r\n    border: 1px solid #aaa;\r\n    border-radius: 5px;\r\n    background-color: #fff;\r\n    // -moz-appearance: none;\r\n    // -webkit-appearance: none;\r\n    // appearance: none;\r\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,MAAM,CAAA;EACF,OAAO,EAAE,KAAK;EACd,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,OAAO;EAChB,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,IAAI;EACf,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,UAAU;EACtB,MAAM,EAAE,CAAC;EACT,MAAM,EAAE,cAAc;EACtB,aAAa,EAAE,GAAG;EAClB,gBAAgB,EAAE,IAAI;CAIzB"
+}

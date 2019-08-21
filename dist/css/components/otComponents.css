@@ -107,47 +107,4 @@ select {
   border-bottom: 5px solid #0072aa;
 }
 
-/**
-Reset styles to unapply default styles applied by browsers
-**/
-body {
-  margin: 0px;
-}
-
-body {
-  background: linear-gradient(61deg, #090e2c 0, #122c69 59%, #078db3 100%);
-  background-color: #111b58;
-  background-attachment: fixed;
-  height: 100%;
-  width: 100%;
-  position: fixed;
-}
-
-.content {
-  background-color: white;
-  height: 100%;
-}
-
-.header {
-  display: grid;
-  grid-template-columns: auto 1fr;
-}
-
-.header .company-logo {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.header .company-logo .logo-separator {
-  margin-left: 10px;
-  height: 35px;
-}
-
-.header .company-logo .crp-header-text {
-  font-size: 23px;
-  color: #ffffff;
-  margin-left: 10px;
-}
-
-/*# sourceMappingURL=otUXD.css.map */
+/*# sourceMappingURL=otComponents.css.map */

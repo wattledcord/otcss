@@ -1,0 +1,13 @@
+.dropdown {
+  button {
+      background-color: lightskyblue;
+      margin: 1px;
+      border: none;
+      border-radius: 5px;
+      min-width: 4rem;
+      min-height: 2rem;
+  }
+  .dropdown-menu {
+    display: none;
+  }
+}

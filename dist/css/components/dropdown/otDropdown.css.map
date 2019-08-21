@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "otDropdown.css",
+	"sources": [
+		"../../../../scss/components/dropdown/otDropdown.scss"
+	],
+	"sourcesContent": [
+		".dropdown {\r\n  button {\r\n      background-color: lightskyblue;\r\n      margin: 1px;\r\n      border: none;\r\n      border-radius: 5px;\r\n      min-width: 4rem;\r\n      min-height: 2rem;\r\n  }\r\n  .dropdown-menu {\r\n    display: none;\r\n  }\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": "AAAA,AACE,SADO,CACP,MAAM,CAAC;EACH,gBAAgB,EAAE,YAAY;EAC9B,MAAM,EAAE,GAAG;EACX,MAAM,EAAE,IAAI;EACZ,aAAa,EAAE,GAAG;EAClB,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,IAAI;CACnB;;AARH,AASE,SATO,CASP,cAAc,CAAC;EACb,OAAO,EAAE,IAAI;CACd"
+}

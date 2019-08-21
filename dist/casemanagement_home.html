@@ -1,0 +1,226 @@
+<html>
+<style>
+body {
+margin : 0px;
+}
+.container {
+display : flex;
+justify-content : space-between;
+flex-wrap : wrap;
+align-items : baseline;
+padding-left :15px;
+padding-right : 15px;
+flex-direction : row;
+background: linear-gradient(61deg,#090e2c 0,#122c69 59%,#078db3 100%);
+ background-color: #111b58;
+ background-attachment: fixed; 
+ margin-bottom : 0px;
+ height : 10%;
+}
+.navbar {
+display:flex;
+flex-direction : row; 
+flex-start : end;
+list-style:none;
+}
+.logo-separator {
+    margin-left: 10px;
+}
+.crp-header-text {
+    font-size: 23px;
+    color: #FFFFFF;
+    display: inline-block;
+    margin-left: 10px;
+	vertical-align : super;
+}
+.search-icon {
+height: 21px;
+filter: invert(1);
+ margin-left: 25%;
+ margin-top: 22%;
+}
+.fav-icon {
+height: 30px; 
+margin-left: 16%;
+margin-top: 9%;
+}
+.user-icon {
+height: 47px;
+ align-content:space-around
+}
+.circle {
+    height: 42px;
+    width: 45px;
+    background-color: #004a70;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 1%;
+  }
+  .search-fav-profile {
+  flex-direction : row;
+  }
+  .listitem {
+  padding-right : 10pt;
+  }
+  .opentext-logo { 
+  filter: invert(1); 
+  vertical-align : text-bottom; 
+  webkit-filter: grayscale(100%);
+  }
+  .tabs {
+  display : flex;
+  flex-direction : row;
+  list-style : none;
+  background-color: rgba(242, 242, 242, 1);
+  align-items: center;
+   margin: 0px;
+    height: 7%;
+  }
+  .subtabs {
+   display : flex;
+  flex-direction : row;
+  list-style : none;
+  align-items: center;
+   margin: 0px;
+    height: 7%;
+	border-bottom : 1px solid rgba(242, 242, 242, 1);
+  }
+  .tab-item {
+  padding-right : 20pt;
+  cursor : pointer;
+  }
+  li.tab-item-1::after{
+    content: "";
+    position: absolute;
+    height: 0.4rem;
+    left: 2.4rem;
+    right: 1.3rem;
+    width: 45px;
+    top: 16%;
+    background-color: #0072aa;
+	}
+	
+	 li.tab-item-2::after{
+    content: "";
+    position: absolute;
+    height: 0.4rem;
+    left: 6.4rem;
+    right: 1.3rem;
+    width: 45px;
+    top: 16%;
+    background-color: #0072aa;
+	}
+	 li.tab-item-3::after{
+    content: "";
+    position: absolute;
+    height: 0.4rem;
+    left: 10.4rem;
+    right: 1.3rem;
+    width: 72px;
+    top: 16%;
+    background-color: #0072aa;
+	}
+	 li.tab-item-4::after{
+    content: "";
+    position: absolute;
+    height: 0.4rem;
+    left: 16.4rem;
+    right: 1.3rem;
+    width: 55px;
+    top: 16%;
+    background-color: #0072aa;
+	}
+	  li.sub-tab-item-1::after{
+      content: "";
+    position: absolute;
+    height: 0.4rem;
+    left: 2.4rem;
+    right: 1.3rem;
+ 
+    width: 6.5%;
+    top: 23%;
+    background-color: #0072aa;
+	}
+ li.sub-tab-item-2::after{
+     content: "";
+    position: absolute;
+    height: 0.4rem;
+    left: 9.8rem;
+    right: 1.3rem;
+    width: 3.7%;
+    top: 23%;
+    background-color: #0072aa;
+	}
+</style>
+<script>
+function getClickeditem(event) {
+console.log(event);
+
+if(event.currentTarget.innerText=="Life cycle")
+{
+event.currentTarget.classList.add('tab-item-3');
+document.getElementById('1').classList.remove('tab-item-1');
+document.getElementById('2').classList.remove('tab-item-2')
+document.getElementById('4').classList.remove('tab-item-4')
+}
+if(event.currentTarget.innerText=="Rules")
+{
+event.currentTarget.classList.add('tab-item-2');
+document.getElementById('1').classList.remove('tab-item-1');
+document.getElementById('3').classList.remove('tab-item-3')
+document.getElementById('4').classList.remove('tab-item-4')
+}
+if(event.currentTarget.innerText=="Model")
+{
+event.currentTarget.classList.add('tab-item-1');
+document.getElementById('3').classList.remove('tab-item-3');
+document.getElementById('2').classList.remove('tab-item-2')
+document.getElementById('4').classList.remove('tab-item-4')
+}
+if(event.currentTarget.innerText=="Settings")
+{
+event.currentTarget.classList.add('tab-item-4');
+document.getElementById('1').classList.remove('tab-item-1');
+document.getElementById('2').classList.remove('tab-item-2');
+document.getElementById('3').classList.remove('tab-item-3');
+}
+}
+function getClickedsubitem(event) {
+if(event.currentTarget.innerText == "Case properties")
+{
+event.currentTarget.classList.add('sub-tab-item-1');
+document.getElementById('6').classList.remove('sub-tab-item-2');
+}
+if(event.currentTarget.innerText == "Forms")
+{
+event.currentTarget.classList.add('sub-tab-item-2');
+document.getElementById('5').classList.remove('sub-tab-item-1');
+}
+}
+</script>
+<div class="container">
+  <a  (click)="goToHome()">
+      <img src="opentext_logo_b24.png" class="opentext-logo" width="180" height="35"> 
+	 
+    <img class="logo-separator" src="logo_separator.png"> </img>
+    <div class="crp-header-text">
+      Case Management
+    </div>
+	 </a>
+   <ul class="navbar">
+   <li class="listitem"> <div class="circle"><img src="https://intranet.opentext.com/img/csui/themes/carbonfiber/image/icons/search.svg" class="search-icon"></div> </li>
+   <li class="listitem"> <div class="circle"><img src="u254.svg" class="fav-icon" ></div> </li>
+   <li class="listitem"> <div class="circle" >  <img  src="http://10.96.153.168:4200/assets/icons/user3.png" class="user-icon">  </li>
+	</div>
+	<ul class="tabs">
+	<li class="tab-item-1 tab-item" id="1" onclick="getClickeditem(event)"> Model </li>
+	<li class="tab-item" id="2" onclick="getClickeditem(event)"> Rules </li>
+	<li class=" tab-item" id="3" onclick="getClickeditem(event)"> Life cycle </li>
+	<li class=" tab-item" id="4" onclick="getClickeditem(event)">   Settings  </li>
+	</ul>
+	<ul class="subtabs">
+	<li class="sub-tab-item-1 tab-item" id="5" onclick="getClickedsubitem(event)"> Case properties </li>
+	<li class="tab-item" id="6" onclick="getClickedsubitem(event)"> Forms </li>
+	</ul>
+	
+</html>

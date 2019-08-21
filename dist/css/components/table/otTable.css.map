@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "otTable.css",
+	"sources": [
+		"../../../../scss/components/table/otTable.scss"
+	],
+	"sourcesContent": [
+		".table {\r\n  border-right: 2px solid #f4f4f4;\r\n  border-left: 2px solid #f4f4f4;\r\n  width: 100%;\r\n  .header {\r\n    display: flex;\r\n    background-color: #f5f7fa;\r\n    flex-direction: row;\r\n    flex-wrap: nowrap;\r\n    font-size: 18px;    \r\n  }\r\n  .cell {\r\n    flex-grow: 1;\r\n    flex-shrink: 1;  \r\n    flex-basis: 0;  \r\n    padding: 10px;\r\n    text-align: start;\r\n  }\r\n  .body {\r\n    display: flex;\r\n    flex-direction: column;\r\n    flex-wrap: nowrap;\r\n    .row {\r\n      display: flex;\r\n      flex-direction: row;\r\n      border-bottom: 2px solid #f4f4f4;\r\n      padding-top: 5px;      \r\n      .cell {\r\n        font-size: 16px;\r\n      }\r\n    }\r\n  }\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,MAAM,CAAC;EACL,YAAY,EAAE,iBAAiB;EAC/B,WAAW,EAAE,iBAAiB;EAC9B,KAAK,EAAE,IAAI;CA6BZ;;AAhCD,AAIE,MAJI,CAIJ,OAAO,CAAC;EACN,OAAO,EAAE,IAAI;EACb,gBAAgB,EAAE,OAAO;EACzB,cAAc,EAAE,GAAG;EACnB,SAAS,EAAE,MAAM;EACjB,SAAS,EAAE,IAAI;CAChB;;AAVH,AAWE,MAXI,CAWJ,KAAK,CAAC;EACJ,SAAS,EAAE,CAAC;EACZ,WAAW,EAAE,CAAC;EACd,UAAU,EAAE,CAAC;EACb,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,KAAK;CAClB;;AAjBH,AAkBE,MAlBI,CAkBJ,KAAK,CAAC;EACJ,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,SAAS,EAAE,MAAM;CAUlB;;AA/BH,AAsBI,MAtBE,CAkBJ,KAAK,CAIH,IAAI,CAAC;EACH,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,aAAa,EAAE,iBAAiB;EAChC,WAAW,EAAE,GAAG;CAIjB;;AA9BL,AA2BM,MA3BA,CAkBJ,KAAK,CAIH,IAAI,CAKF,KAAK,CAAC;EACJ,SAAS,EAAE,IAAI;CAChB"
+}

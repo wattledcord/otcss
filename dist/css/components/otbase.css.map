@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "otbase.css",
+	"sources": [
+		"../../../scss/components/otbase.scss"
+	],
+	"sourcesContent": [
+		"body {\r\n  background: linear-gradient(61deg, #090e2c 0, #122c69 59%, #078db3 100%);\r\n  background-color: #111b58;\r\n  background-attachment: fixed;\r\n  height: 100%;\r\n  width: 100%;\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,IAAI,CAAC;EACH,UAAU,EAAE,4DAA4D;EACxE,gBAAgB,EAAE,OAAO;EACzB,qBAAqB,EAAE,KAAK;EAC5B,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;CACZ"
+}

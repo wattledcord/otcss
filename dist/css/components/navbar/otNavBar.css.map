@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "otNavBar.css",
+	"sources": [
+		"../../../../scss/components/navbar/otNavBar.scss"
+	],
+	"sourcesContent": [
+		".navbar {\r\n  display: flex;\r\n  flex-direction: row;  \r\n  list-style: none;\r\n  justify-content: flex-end;\r\n  .listitem {\r\n    padding-right: 10pt;\r\n  }\r\n}\r\n\r\n"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,OAAO,CAAC;EACN,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,UAAU,EAAE,IAAI;EAChB,eAAe,EAAE,QAAQ;CAI1B;;AARD,AAKE,OALK,CAKL,SAAS,CAAC;EACR,aAAa,EAAE,IAAI;CACpB"
+}
