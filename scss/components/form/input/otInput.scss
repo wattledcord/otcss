@@ -1,20 +1,2 @@
-input[type="text"] {
-  background-color: #ffffff;
-  border-radius: 3px;
-  border: 1px solid #757575;
-  height: 28px;
-  padding-left: 10px;
-  width: 95%;
-  margin: 0;
-}
-input[type="checkbox"] {
-  -webkit-appearance: none;
-  width: 18px;
-  height: 18px;
-  background: #ffffff;
-  border: 1px solid #757575;
-  box-sizing: border-box;
-}
-input[type="checkbox"]:checked {
-  background: lightblue;
-}
+@import './checkbox/otCheckbox.scss';
+@import './text/otText.scss';

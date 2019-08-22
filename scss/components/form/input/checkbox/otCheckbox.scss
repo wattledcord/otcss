@@ -1,0 +1,17 @@
+.checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+  input {
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    background: #ffffff;
+    border: 1px solid #757575;
+    box-sizing: border-box;
+  }
+  input:checked {
+    background: lightblue;
+  }
+}

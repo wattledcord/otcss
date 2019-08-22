@@ -19,17 +19,14 @@ select {
   background-color: #fff;
 }
 
-input[type="text"] {
-  background-color: #ffffff;
-  border-radius: 3px;
-  border: 1px solid #757575;
-  height: 28px;
-  padding-left: 10px;
-  width: 95%;
-  margin: 0;
+.checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
 }
 
-input[type="checkbox"] {
+.checkbox input {
   -webkit-appearance: none;
   width: 18px;
   height: 18px;
@@ -38,8 +35,18 @@ input[type="checkbox"] {
   box-sizing: border-box;
 }
 
-input[type="checkbox"]:checked {
+.checkbox input:checked {
   background: lightblue;
+}
+
+input[type="text"] {
+  background-color: #ffffff;
+  border-radius: 3px;
+  border: 1px solid #757575;
+  height: 28px;
+  padding-left: 10px;
+  width: 95%;
+  margin: 0;
 }
 
 /*# sourceMappingURL=otForm.css.map */

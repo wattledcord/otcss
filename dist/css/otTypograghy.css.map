@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "otTypograghy.css",
+	"sources": [
+		"../../scss/otTypograghy.scss"
+	],
+	"sourcesContent": [
+		"@font-face {\r\n    font-family: \"OpenText Sans\";\r\n    font-style: normal;\r\n    font-weight: 400;\r\n    src: url(\"assets/fonts/OpenTextSans_W_Rg.eot\");\r\n    src: url(\"assets/fonts/OpenTextSans_W_Rg.woff2\") format(\"woff2\"), url(\"assets/fonts/OpenTextSans_W_Rg.woff\") format(\"woff\");\r\n  }\r\n  @font-face {\r\n    font-family: \"OpenText Sans\";\r\n    font-style: normal;\r\n    font-weight: 300;\r\n    src: url(\"assets/fonts/OpenTextSans_W_Lt.eot\");\r\n    src: url(\"assets/fonts/OpenTextSans_W_Lt.woff2\") format(\"woff2\"), url(\"assets/fonts/OpenTextSans_W_Lt.woff\") format(\"woff\");\r\n  }\r\n  @font-face {\r\n    font-family: \"OpenText Sans\";\r\n    font-style: normal;\r\n    font-weight: 700;\r\n    src: url(\"assets/fonts/OpenTextSans_W_Bd.eot\");\r\n    src: url(\"assets/fonts/OpenTextSans_W_Bd.woff2\") format(\"woff2\"), url(\"assets/fonts/OpenTextSans_W_Bd.woff\") format(\"woff\");\r\n  }"
+	],
+	"names": [],
+	"mappings": "AAAA,UAAU;EACN,WAAW,EAAE,eAAe;EAC5B,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,GAAG;EAChB,GAAG,EAAE,yCAAyC;EAC9C,GAAG,EAAE,2CAA2C,CAAC,eAAe,EAAE,0CAA0C,CAAC,cAAc;;;AAE7H,UAAU;EACR,WAAW,EAAE,eAAe;EAC5B,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,GAAG;EAChB,GAAG,EAAE,yCAAyC;EAC9C,GAAG,EAAE,2CAA2C,CAAC,eAAe,EAAE,0CAA0C,CAAC,cAAc;;;AAE7H,UAAU;EACR,WAAW,EAAE,eAAe;EAC5B,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,GAAG;EAChB,GAAG,EAAE,yCAAyC;EAC9C,GAAG,EAAE,2CAA2C,CAAC,eAAe,EAAE,0CAA0C,CAAC,cAAc"
+}

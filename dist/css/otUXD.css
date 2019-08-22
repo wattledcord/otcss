@@ -78,17 +78,14 @@ select {
   background-color: #fff;
 }
 
-input[type="text"] {
-  background-color: #ffffff;
-  border-radius: 3px;
-  border: 1px solid #757575;
-  height: 28px;
-  padding-left: 10px;
-  width: 95%;
-  margin: 0;
+.checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
 }
 
-input[type="checkbox"] {
+.checkbox input {
   -webkit-appearance: none;
   width: 18px;
   height: 18px;
@@ -97,8 +94,18 @@ input[type="checkbox"] {
   box-sizing: border-box;
 }
 
-input[type="checkbox"]:checked {
+.checkbox input:checked {
   background: lightblue;
+}
+
+input[type="text"] {
+  background-color: #ffffff;
+  border-radius: 3px;
+  border: 1px solid #757575;
+  height: 28px;
+  padding-left: 10px;
+  width: 95%;
+  margin: 0;
 }
 
 .container {
@@ -175,9 +182,9 @@ html, body {
 
 .content {
   background-color: white;
-  height: 600px;
+  height: 90vh;
   overflow-y: auto;
-  padding: 10px;
+  padding: 0 10px 50px 10px;
 }
 
 .header {
@@ -202,6 +209,30 @@ html, body {
   font-size: 23px;
   color: #ffffff;
   margin-left: 10px;
+}
+
+@font-face {
+  font-family: "OpenText Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("assets/fonts/OpenTextSans_W_Rg.eot");
+  src: url("assets/fonts/OpenTextSans_W_Rg.woff2") format("woff2"), url("assets/fonts/OpenTextSans_W_Rg.woff") format("woff");
+}
+
+@font-face {
+  font-family: "OpenText Sans";
+  font-style: normal;
+  font-weight: 300;
+  src: url("assets/fonts/OpenTextSans_W_Lt.eot");
+  src: url("assets/fonts/OpenTextSans_W_Lt.woff2") format("woff2"), url("assets/fonts/OpenTextSans_W_Lt.woff") format("woff");
+}
+
+@font-face {
+  font-family: "OpenText Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("assets/fonts/OpenTextSans_W_Bd.eot");
+  src: url("assets/fonts/OpenTextSans_W_Bd.woff2") format("woff2"), url("assets/fonts/OpenTextSans_W_Bd.woff") format("woff");
 }
 
 /*# sourceMappingURL=otUXD.css.map */

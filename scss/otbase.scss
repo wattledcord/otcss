@@ -13,9 +13,9 @@ html, body {
 }
 .content {
   background-color: $ot-body-content-color;
-  height: 600px;
-  overflow-y: auto;
-  padding: 10px;
+  height: 90vh;
+  overflow-y: auto;  
+  padding:0 10px 50px 10px;
 }
 .header {
   display: flex;

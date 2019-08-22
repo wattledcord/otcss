@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "otCheckbox.css",
+	"sources": [
+		"../../../../../../scss/components/form/input/checkbox/otCheckbox.scss"
+	],
+	"sourcesContent": [
+		".checkbox {\r\n  display: flex;\r\n  flex-direction: row;\r\n  align-items: center;\r\n  padding: 5px;\r\n  input {\r\n    -webkit-appearance: none;\r\n    width: 18px;\r\n    height: 18px;\r\n    background: #ffffff;\r\n    border: 1px solid #757575;\r\n    box-sizing: border-box;\r\n  }\r\n  input:checked {\r\n    background: lightblue;\r\n  }\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,SAAS,CAAC;EACR,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,WAAW,EAAE,MAAM;EACnB,OAAO,EAAE,GAAG;CAYb;;AAhBD,AAKE,SALO,CAKP,KAAK,CAAC;EACJ,kBAAkB,EAAE,IAAI;EACxB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,OAAO;EACnB,MAAM,EAAE,iBAAiB;EACzB,UAAU,EAAE,UAAU;CACvB;;AAZH,AAaE,SAbO,CAaP,KAAK,AAAA,QAAQ,CAAC;EACZ,UAAU,EAAE,SAAS;CACtB"
+}
